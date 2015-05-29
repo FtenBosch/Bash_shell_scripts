@@ -165,7 +165,7 @@ function unmount_dir() {
 
 read_options(){
 	local choice
-	read -p "Enter choice [ 0 - 6 ] " choice
+	read -p "Enter choice [ 0 - 7 ] " choice
 	case $choice in
 		0) show_menu ;;
         1) show_mounts ;;
